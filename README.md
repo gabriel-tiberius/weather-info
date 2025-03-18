@@ -1,5 +1,5 @@
 # WeatherInfo
-Aplicação para Web com base na API OpenWeatherMap para informar dados climáticos.
+Aplicação Web com base na API OpenWeatherMap para informar dados climáticos.
 
 ## Descrição
 WeatherInfo é um projeto de aplicação web que estou desenvolvendo utilizando a API OpenWeatherMap para informar ao usuário informações climáticas em tempo real da região desejada. O usuário pode buscar qualquer cidade na caixa "Buscar por Cidade" para receber informações sobre temperatura e condição. O site está sendo feito com um design minimalista e direto para satisfazer a procura do usuário de maneira mais eficiente e rápida. 
