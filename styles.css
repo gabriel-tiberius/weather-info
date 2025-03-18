@@ -1,0 +1,272 @@
+body{
+    background-color: rgb(0, 0, 0) !important;
+    background: linear-gradient(to left, rgba(250, 242, 231, 0.1) 80%, rgba(45, 45, 83, 0.2) 100%);
+    background: linear-gradient(to right, rgba(250, 242, 231, 0.1) 80%, rgba(45, 45, 83, 0.2) 100%);
+}
+
+
+#navbar-searchbar{
+    background: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue !important;
+    color: aliceblue !important;
+}
+
+#navbar-searchbar-button{
+    background: transparent !important;
+    color: aliceblue !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue !important;
+
+}
+
+.navbar-brand{
+    color: aliceblue !important;
+}
+
+.nav-link{
+    color: aliceblue !important;
+}
+
+.custom-navbar {
+    position: relative;
+    background: transparent !important;
+}
+
+.custom-navbar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.navbar-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    /* Aplica o desfoque */
+    backdrop-filter: blur(10px);
+
+    /* Gradiente escuro no topo, transparente para baixo */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+
+    /* Máscara para suavizar o desfoque na parte de baixo */
+    mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+
+
+.dropdown-item{
+    color: aliceblue !important;
+}
+
+input::placeholder{
+    color: aliceblue !important;
+}
+
+input.cadastro::placeholder{
+    color: hsl(240, 30%, 25%) !important;
+}
+
+input:focus::placeholder {
+    opacity: 0; /* Tornar o placeholder invisível */
+}
+
+input.form-control:hover {
+    outline: 2px solid aliceblue !important; 
+}
+
+input.form-control:focus {
+    outline: 2px solid aliceblue !important;
+    box-shadow: none !important;
+}
+
+.btn-outline-success:hover{
+    outline: 2px solid aliceblue;
+}
+
+.btn-primary {
+    background-color: hsl(240, 30%, 25%) !important;
+    outline: none !important;
+    box-shadow: none !important; /* Remove o efeito de contorno */
+}
+
+.btn-primary:hover{
+    outline: 2px solid hsl(240, 30%, 25%);
+}
+
+.container{
+    display:flex;    
+}
+
+
+.card{
+    
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    position: relative;
+    z-index: 2; 
+    display: flex;
+    height: 20%; 
+
+    
+}
+
+.card-text {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.card-img-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 17%; 
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.card-header{
+    background-color:aliceblue !important;
+}
+
+
+.card-img{
+    height: 100% !important; /* Faz a imagem ocupar toda a altura do card */
+  width: 100% !important; /* Faz a imagem ocupar toda a largura do card */
+  object-fit: cover !important; /* Faz a imagem preencher o card sem esticar */
+  object-position: 50% 80%;
+}
+
+.card-atual{
+
+    background-color: aliceblue;
+    max-width: 470px !important;
+    border-radius: 20px;
+    
+
+}
+
+
+
+
+.lista-info .list-group-item {
+    display: flex;
+    align-items: center; /* Mantém alinhado verticalmente */
+    justify-content: center; /* Centraliza os elementos no eixo principal */
+  }
+
+  /* Cada item (span e img) ocupará espaço igual, com alinhamento central */
+.lista-info .info {
+    flex: 1; /* Garante que todos ocupem o mesmo espaço */
+    text-align: center; /* Alinha o texto no centro do espaço */
+  }
+
+  .info-temperatura{
+    color: rgb(21, 33, 202);
+  }
+
+  .imagem-tempo {
+    height: 50px; /* Ajuste conforme necessário */
+    width: auto;
+    margin: 0 10px; /* Adiciona espaçamento para não colar nos elementos */
+}
+
+.card-tempo-atual{
+    width: 90%;
+    max-width: 470px;
+    background-color: aquamarine;
+    color: aliceblue;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 10px 35px;
+    
+}
+
+.tempo-atual-title{
+    
+}
+
+.background-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: brightness(0.8);
+}
+
+
+
+
+
+
+
+
+.clima-card {
+    background:transparent;
+    backdrop-filter: blur(10px);
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid hsl(208, 100%, 97%);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 710px;
+    margin-top: 100px;
+}
+
+.clima-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clima-card .temperatura {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.clima-card .condicao-geral {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detalhes-clima {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .background-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .background-video{
+        width: auto;
+        height: 100%;
+    }
+}
