@@ -6,7 +6,7 @@ WeatherInfo é um projeto de aplicação web que estou desenvolvendo utilizando 
 OBS: Por motivos de segurança, será necessário informar sua própria key da API no arquivo "script.js" para habilitar a busca.
 
 ## To Do
-O projeto ainda está em desenvolvimento, portanto, certas features ainda não foram adicionadas, listadas abaixo:
+O projeto ainda está em desenvolvimento, portanto, certas features serão adicionadas no futuro. Essas estão listadas abaixo:
 - Cadastro
 - Login
 - Perfil
